@@ -168,6 +168,12 @@ test('should show details for a specific rental', function (assert) {
 });
 ```
 
+Run the tests
+
+```shell
+ember test --server
+```
+
 Of course because we have not implemented this functionality yet, our tests will all fail.
 Your test output should now show all failed tests, which gives us a todo list for the rest of the tutorial.
 
